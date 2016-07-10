@@ -1,0 +1,59 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #030D4F;
+	font-size: 23px;
+	font-weight: 300;
+}
+
+#container {
+  width: 950px; margin: 0px auto; padding: 150px 0px;  
+}
+
+
+#heading {
+	width: 960px; margin: auto; 
+	font-size: 44px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFC52C;
+}
+
+
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#thumbnail {
+   
+}
+
+#thumbnail img{
+    width: 200px; margin: 65px; 
+    float:left; /* add this */
+    border: 6px solid;
+    border-color: #E7EDEA;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#second {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+a:link {
+	color: #030D4F;
+}
+
+a:visited {
+	color: #030D4F;
+}
+
+a:hover{
+	color: #FB0C06;
+}
